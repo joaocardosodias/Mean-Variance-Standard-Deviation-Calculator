@@ -5,7 +5,7 @@ def calculate(lista):
     if len(lista) != 9:
         raise ValueError("the list must contain exactly 9 numbers")
     
-    # Converte a lista em matriz 3x3
+
     matriz = np.array(lista).reshape(3, 3)
     
    
